@@ -1,0 +1,91 @@
+body {
+	font-family: 'Noticia Text', serif;
+	background: #333399;
+	color: #333399;
+	font-size: 18px;
+	line-height: 140%;
+	padding: 60px;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 125%;
+	color: #FF0066;
+}
+
+.contents {
+	font-style: italic;
+	color: #FF0066;
+	padding: 20px;
+	border: 2px dashed #FF0066;
+	text-align: center;
+}
+
+a {
+	color: #FF0066;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	padding-bottom: 1em;
+}
+
+h2 {
+	color: #FF0066; 
+	padding-top: 36px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+ul {
+	padding-left: 18px;
+}
+
+ol {
+	counter-reset: li;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ol > li {
+    position:relative; 
+    margin:0 0 6px 2em; 
+    padding: 10px 8px;
+    list-style:none; 
+    border-top:2px solid #FF0066;
+}
+
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    padding:4px;
+    color:#fff;
+    background:#FF0066;
+    font-weight:bold;
+    text-align:center;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background: #FFFF99;
+	padding: 50px;
+	border: #FFFF99;
