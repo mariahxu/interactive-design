@@ -83,6 +83,14 @@ ol > li:before {
     text-align:center;
 }
 
+.home {
+	font-style: italic;
+	color: #FF0066;
+	padding: 20px;
+	border: 2px dashed #FF0066;
+	text-align: center;
+}
+
 .container {
 	width: 700px;
 	margin: 0 auto;
