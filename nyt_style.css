@@ -1,0 +1,79 @@
+h1 {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 36px;
+	line-height: 2.25rem;
+	font-weight: 500;
+	font-family: georgia,"times new roman",times,serif;
+	font-style: normal;
+}
+
+h2 {
+	border-top: 2px solid #e2e2e2;
+	padding-top: 7px;
+	width: 615px;
+	font-size: 11px;
+	line-height: 12px;
+	font-weight: bold;
+	font-family: georgia,"times new roman",times,serif;
+	padding-bottom: 16px;
+}
+
+hr {
+	width: 495px;
+	margin-left: 120px;
+}
+
+#sidebar {
+	width: 80px;
+	float: left;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: gray;
+	margin-top: 28px;
+	padding: 10px;
+	border-top: 2px solid #e2e2e2;
+	border-bottom: 2px solid #e2e2e2;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+p {
+	color: #333;
+	display: block;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 23px;
+	line-height: 1.4375rem;
+	font-weight: 400;
+	font-family: georgia,"times new roman",times,serif;
+	width: 495px;
+	margin-bottom: 1em;
+	margin-left: 120px;
+}
+
+.initialp {
+	color: #333;
+	font-size: 16px;
+	line-height: 23px;
+	line-height: 1.4375rem;
+	font-weight: 400;
+	font-family: georgia,"times new roman",times,serif;
+	width: 495px;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	margin-left: 120px;
+}
+
+body {
+	padding: 5px;
+}
+
+.begintext {
+	text-transform: uppercase;
+}

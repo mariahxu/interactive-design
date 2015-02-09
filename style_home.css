@@ -1,0 +1,25 @@
+body {
+	background: #303030;
+	color: orange;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 30px;
+	font-family: helvetica;
+}
+
+h1 {
+	font-size: 10em;
+}
+
+.container {
+	margin-left: 120px;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
