@@ -1,0 +1,31 @@
+body {
+	margin: 0 auto;
+}
+
+.inner-header, .container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.title {
+	float: left;
+	font-size: 36px;
+	width: 940px;
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.links {
+	margin-left: 300px;
+}
+
+header {
+	background: black;
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
