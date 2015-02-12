@@ -1,0 +1,93 @@
+body {
+	background: #FFFEF5;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	line-height: 28px;
+	margin: 0;
+
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 22px;
+	padding-left: 40px;
+	margin: 0;
+	background: white;
+	width: 100%;
+	color: black;
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	box-shadow: 0px 2px 2px #CCCCCC;
+}
+
+.container {
+	width: 540px;
+	margin: 0 auto;
+}
+
+p {
+	width: 540px;
+	margin: 0 auto;
+	letter-spacing: .25px;
+	padding: 10px;
+	position: relative;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 65px;
+	font-weight: 700;
+	padding-top: 52px;
+	padding-bottom: 20px;
+	line-height: 72px;
+	margin: 0;
+}
+
+.description {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: .5px;
+	padding: 0;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.author {
+	border-bottom: 1px solid blue;
+	padding: .5px;
+    font-weight: 700;
+}
+
+.nav {
+	position: fixed;
+	top: 120px;
+	right: 30px;
+}
+
+a {
+	color: #0e0e9e;
+	border: 2px solid #0e0e9e;
+	padding: 5px;
+	background: white;
+	text-decoration: none;
+	font-family: 'Inconsolata', helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.pull-quote {
+	font-size: 28px;
+	line-height: 38px;
+	margin: 0 auto;
+	width: 540px;
+	display: block;
+	position: absolute;
+	left: 20px;
+}
