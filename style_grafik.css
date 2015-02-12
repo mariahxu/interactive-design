@@ -91,3 +91,14 @@ a {
 	position: absolute;
 	left: 20px;
 }
+
+footer {
+	margin: 0 auto;
+	width: 540px;
+	color: #0e0e9e;
+	text-decoration: none;
+	font-family: 'Inconsolata', helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	padding-bottom: 120px;
+}
