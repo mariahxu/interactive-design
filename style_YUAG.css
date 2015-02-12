@@ -1,23 +1,36 @@
 body {
 	margin: 0 auto;
+	font-family: sans-serif;
 }
 
-.inner-header, .container {
+.container {
 	width: 940px;
 	margin: 0 auto;
 }
 
+.inner-header, .container {
+	width: 940px;
+	height: 79px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .title {
 	float: left;
-	font-size: 36px;
 	width: 940px;
+	height: 79px;
 	margin: 0px auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 .links {
-	margin-left: 300px;
+	margin-left: 80px;
+	width: 860px;
+	height: 46px;
+	font-size: 16px;
+	padding: 0;
 }
 
 header {
@@ -27,5 +40,27 @@ header {
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-size: 36px;
+	font-family: sans-serif;
 }
 
+.overall-container {
+	position: relative;
+	min-height: 100%;
+}
+
+footer {
+	padding-bottom: 20px;
+	color: white;
+	background: black;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.inner-footer {
+	height: 79px;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
