@@ -1,0 +1,128 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-style: normal;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	background: #0E4C92;
+	margin: 0;
+	height: 95px;
+}
+
+.header-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.web-name {
+	display: block;
+	max-width: 135px;
+	height: 36px;
+	color: #bcd7f4;
+	font-size: 12px;
+	font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
+	padding-top: 10px;
+}
+
+.title {
+	font-family: 'Libre Baskerville', Georgia,'Times New Roman', Times, serif;
+	font-size: 36px;
+	color: #fff;
+	display: block;
+	font-style: normal;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+.nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 177px;
+	margin-top: 20px;
+	padding-top: 7px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #585858;
+	padding-right: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	max-width: 177px;
+}
+
+.nav a:hover {
+	color: #0E4C92;
+	background: #ededed;
+}
+
+.link {
+	display: block;
+	color: #585858;
+	text-decoration: none;
+	padding: 5px 0 6px 0;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	vertical-align: top;
+}
+
+.body-paragraphs {
+	display: inline-block;
+	max-width: 531px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.image {
+	display: inline-block;
+	max-width: 192px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.image img {
+	max-width: 192px;
+}
+
+footer {
+	width: 100%;
+	background: #0E4C92;
+	margin: 0;
+	height: 95px;
+}
+
+.footer-container {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 177px;
+}
+
+.credit {
+	display: inline-block;
+	vertical-align: bottom;
+	color: #bcd7f4;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+.credit a {
+	color: white;
+}
