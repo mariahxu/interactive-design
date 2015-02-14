@@ -1,0 +1,65 @@
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+header {
+	font-size: 11px;
+	color: orange;
+	padding: 12px;
+	margin-left: 300px;
+}
+
+.nav {
+	display: inline-block;
+	width: 120px;
+	height: 330px;
+	padding: 12px;
+	margin: 12px;
+	vertical-align: top;
+	background: white;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.paragraphs {
+	display: inline-block;
+	width: 454px;
+	vertical-align: top;
+}
+
+.more-links {
+	display: inline-block;
+	width: 162px;
+	margin: 12px;
+}
+
+.link {
+	margin-bottom: 4px;
+	padding: 7px 12px;
+	background: #89d9f4;
+}
+
+.link a {
+	color: black;
+	text-decoration: none;
+}
+
+footer {
+	font-size: 11px;
+	color: orange;
+	margin-left: 300px;
+}
+
+footer a {
+	color: orange;
+}
+
+mark {
+	padding: 6px;
+}
+
