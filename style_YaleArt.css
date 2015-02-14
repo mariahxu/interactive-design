@@ -51,12 +51,16 @@ header {
 
 footer {
 	font-size: 11px;
-	color: orange;
+	width: 486px;
+	padding: 12px;
+	background: orange;
+	color: black;
 	margin-left: 300px;
+	margin-bottom: 50px;
 }
 
 footer a {
-	color: orange;
+	color: black;
 }
 
 mark {
