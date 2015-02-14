@@ -22,9 +22,24 @@ h2 {
 	display: block;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
+#cf {	
+  position: relative;
+  width: 225px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+#cf img {
+  display: block;
+  position: absolute;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
 
 .section-one {
