@@ -41,6 +41,11 @@ body {
 	letter-spacing: 2px;
 }
 
+.link:hover {
+	background: white;
+	color: black;
+}
+
 header a {
 	color: white;
 	text-decoration: none;

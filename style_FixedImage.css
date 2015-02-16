@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	background: #161616;
+	color: white;
+}
+
+img {
+	position: fixed;
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	max-width: 35%;
+}
+
+.title {
+	position: fixed;
+	margin-left: 30px;
+	margin-top: 100px;
+	margin: 20px;
+	width: 400px;
+}
+
+h1 {
+	display: block;
+	position: fixed;
+	font-size: 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	letter-spacing: 2px;
+	color: white;
+	padding-left: 7px;
+}
+
+.container {
+	margin-left: 40%;
+	max-width: 500px;
+	padding-top: 130px;
+}
+
+p {
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	line-height: 1.75em;
+	font-weight: 200;
+}
