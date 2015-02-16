@@ -12,9 +12,8 @@ body {
 }
 
 h1 {
-	font-size: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	font-size: 120px;
+	line-height: 120px;
 }
 
 h2 {
