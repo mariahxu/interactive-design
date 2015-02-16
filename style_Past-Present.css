@@ -41,3 +41,14 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+.nav {
+	color: white;
+	font-size: 10px;
+	z-index: 2;
+	position: fixed;
+	border: solid gray 1px;
+	padding: 5px 8px;
+	top: 15px;
+	left: 15px;
+}
