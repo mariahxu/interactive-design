@@ -16,8 +16,6 @@ img {
 
 .title {
 	position: fixed;
-	margin-left: 30px;
-	margin-top: 100px;
 	margin: 20px;
 	width: 400px;
 }
@@ -52,4 +50,23 @@ p {
 	font-family: 'Roboto Slab', Helvetica, sans-serif;
 	line-height: 1.75em;
 	font-weight: 200;
+}
+
+h3 {
+	z-index: 2;
+	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	bottom: 50px;
+	padding-left: 7px;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
