@@ -3,12 +3,14 @@ body {
 	color: orange;
 	font-size: 16px;
 	line-height: 20px;
-	padding: 30px;
+	padding-left: 40px;
+	padding-bottom: 60px;
 	font-family: helvetica;
 }
 
 h1 {
-	font-size: 7em;
+	font-size: 100px;
+	line-height: 120px;
 }
 
 .container {
