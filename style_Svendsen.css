@@ -1,0 +1,55 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 28px;
+/*	border: solid red 1px;*/
+}
+
+.background {
+	border: solid black 20px;
+	position: fixed;
+	margin: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.title {
+	position: fixed;
+	top: 50px;
+	left: 50px;
+}
+
+.nav {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding-bottom: 8px;
+}
+
+a:hover {
+	border-bottom: solid black 2px;
+}
+
+img {
+	max-width: 500px;
+	margin: 40px;
+	margin-bottom: 70px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
