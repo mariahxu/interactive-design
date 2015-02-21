@@ -39,6 +39,13 @@ a:hover {
 	border-bottom: solid black 2px;
 }
 
+.link {
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+	max-width: 200px;
+}
+
 img {
 	max-width: 500px;
 	margin: 40px;
