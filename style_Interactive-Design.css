@@ -20,7 +20,10 @@ nav a {
 	background: url('http://mariahxu.github.io/interactive-design/Lee/nobullet.png') no-repeat;
 	background-size: 6px 6px;
 	background-position:center 24%;
-	padding: 22px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 0;
+	padding-right: 0;
 	transition: .1s background ease-out;
 	-webkit-transition: .1s background ease-out;
 	-moz-transition: .1s background ease-out;
