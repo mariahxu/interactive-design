@@ -113,3 +113,15 @@ h1 {
 	margin-bottom: 20px;
 	margin-top: 8px;
 }
+
+footer {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-width: 100%;
+	text-transform: uppercase;
+	border-top: solid black 1px;
+}
