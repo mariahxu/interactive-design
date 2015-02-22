@@ -1,0 +1,71 @@
+body {
+	background-color: #BEC6C9;
+	font-family: Times New Roman, Times, serif;
+	font-size: 19px;
+	line-height: 1.2;
+	margin: 0;
+}
+
+nav {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	position: relative;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 17px;
+	padding: 22px;
+}
+
+nav a {
+	background: url('http://mariahxu.github.io/interactive-design/nobullet.png') no-repeat;
+	background-size: 6px 6px;
+	background-position:center 24%;
+	transition: .1s background ease-out;
+	-webkit-transition: .1s background ease-out;
+	-moz-transition: .1s background ease-out;
+	-o-transition: .1s background ease-out;
+}
+
+nav a:hover {
+	background: url('http://mariahxu.github.io/interactive-design/bullet.png') no-repeat;
+	background-size: 6px 6px;
+	background-position:center 24%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	background: url('../images/bullet-empty.svg') no-repeat;
+	background-size: 6px 6px;
+	background-position:center 24%;
+}
+
+.container {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 19px;
+	line-height: 1.2;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid black;
+	position: relative;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 17px;
+	padding: 16px;
+	margin: 0px;
+}
+
