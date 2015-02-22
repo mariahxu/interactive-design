@@ -20,6 +20,7 @@ nav a {
 	background: url('http://mariahxu.github.io/interactive-design/Lee/nobullet.png') no-repeat;
 	background-size: 6px 6px;
 	background-position:center 24%;
+	padding: 22px;
 	transition: .1s background ease-out;
 	-webkit-transition: .1s background ease-out;
 	-moz-transition: .1s background ease-out;
@@ -29,7 +30,7 @@ nav a {
 nav a:hover {
 	background: url('http://mariahxu.github.io/interactive-design/Lee/bullet.png') no-repeat;
 	background-size: 6px 6px;
-	background-position:center 24%;
+	background-position: center 24%;
 }
 
 a {
