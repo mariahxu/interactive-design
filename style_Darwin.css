@@ -1,0 +1,52 @@
+body {
+	height: 40px;
+    background: -webkit-linear-gradient(rgb(187, 218, 213), white) no-repeat; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(187, 218, 213), white) no-repeat; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(187, 218, 213), white) no-repeat; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(187, 218, 213), white) no-repeat; /* Standard syntax (must be last) */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.image {
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	max-width: 242px;
+	margin: 10px;
+	vertical-align: top;
+	text-align: center;
+}
+
+img {
+	max-width: 240px;
+}
+
+.text {
+	padding: 5px;
+	vertical-align: top;
+	max-width: 900px;
+	margin-left: 280px;
+	margin-right: 240px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+}
+
+.nav {
+	position: absolute;
+	right: 30px;
+	top: 80px;
+	max-width: 200px;
+	padding: 5px;
+	vertical-align: top;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
