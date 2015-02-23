@@ -64,7 +64,7 @@ img {
 	width: 100px;
 	position: relative;
 	left: 50px;
-	bottom: 100px;
+	bottom: 195px;
 }
 
 .highlight {
@@ -82,13 +82,13 @@ h1 {
 	font-size: 50px;
 	text-transform: uppercase;
 	position: relative;
-	bottom: 180px;
+	bottom: 286px;
 	left: 40px;
 }
 
 .author {
 	position: relative;
-	bottom: 160px;
+	bottom: 265px;
 	left: 190px;
 	color: white;
 	text-transform: uppercase;
@@ -100,7 +100,7 @@ h1 {
 .container {
 	width: 742px;
 	margin-left: 80px;
-	margin-top: -160px;
+	margin-top: -280px;
 }
 
 .container img {
