@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coming Home Again</title>
+    <style>
+		@-webkit-keyframes blink {
+		    0% {
+		        opacity: 1;
+		    }
+		    50% {
+		        opacity: 0;
+		    }
+		    100% {
+		        opacity: 1;
+		    }
+		}
+		@-moz-keyframes blink {
+		    0% {
+		        opacity: 1;
+		    }
+		    50% {
+		        opacity: 0;
+		    }
+		    100% {
+		        opacity: 1;
+		    }
+		}
+		@-o-keyframes blink {
+		    0% {
+		        opacity: 1;
+		    }
+		    50% {
+		        opacity: 0;
+		    }
+		    100% {
+		        opacity: 1;
+		    }
+		}
+		img {
+		    -webkit-animation: blink 2s;
+		    -webkit-animation-iteration-count: infinite;
+		    -moz-animation: blink 2s;
+		    -moz-animation-iteration-count: infinite;
+		    -o-animation: blink 2s;
+		    -o-animation-iteration-count: infinite;
+		}
+
+		
+		#cf {	
+		  	position: relative;
+		  	width: 225px;
+		  	height: 75px;
+		  	top: 0; bottom: 0; left: 0; right: 0;
+			margin: auto;
+			position: absolute;
+		}
+
+		#cf img {
+		  display: block;
+		  position: absolute;
+		  -webkit-transition: opacity .5s ease-in-out;
+		  -moz-transition: opacity .5s ease-in-out;
+		  -o-transition: opacity .5s ease-in-out;
+		  transition: opacity .5s ease-in-out;
+		}
+
+		#cf img.top:hover {
+		  opacity:0;
+		}
+	</style>
+</head>
+
+<body background="Lee/Background.jpg">
+
+<div id="cf">
+		<img class="bottom" src="Lee/hoverarrow_flip.png">
+		<a href="http://mariahxu.github.io/interactive-design/ComingHomeAgain_Arsalan.html"><img class="top" src="Lee/bluearrow_flip.png"></a>
+</div>
+
+</body>
