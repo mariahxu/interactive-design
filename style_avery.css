@@ -9,7 +9,7 @@ body {
 	margin: 0px 53px;
 	padding-left: 90px;
 	padding-right: 90px;
-	font-family: sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 25px;
 }
@@ -23,7 +23,7 @@ h1 {
 }
 
 .serif {
-	font-family: serif;
+	font-family: 'Playfair Display', serif;
 }
 
 h2 {
