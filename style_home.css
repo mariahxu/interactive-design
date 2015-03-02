@@ -3,26 +3,108 @@ body {
 	color: orange;
 	font-size: 16px;
 	line-height: 20px;
-	padding-left: 40px;
 	padding-bottom: 60px;
-	font-family: helvetica;
-}
-
-h1 {
-	font-size: 100px;
-	line-height: 120px;
-	padding: 0;
+	font-family: helvetica, sans-serif;
 }
 
 .container {
-	margin-left: 120px;
+	margin: 50px
 }
 
-a {
+h1 {
+	font-size: 180px;
+	line-height: 200px;
+	text-align: right;
+	padding: 0;
+	margin-top: 30px;
+}
+
+h2 {
+	color: white;
+	font-size: 100px;
+	text-align: left;
+	line-height: 120px;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-size: 100px;
+	line-height: 120px;
+	text-align: right;
+}
+
+.site-nav {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 110px;
+	padding: 20px;
+	border: solid white 1px;
+	font-family: helvetica, sans-serif;
+	color: gray !important;
+	z-index: 2;
+	line-height: 12px;
+	font-size: 8px;
+	font-weight: normal;
+	padding-bottom: 60px;
+	text-align: right;
+	background: #303030;
+}
+
+.site-nav:hover {
+	z-index: 5;
+}
+
+.site-nav a {
+	font-family: helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 8px;
+	color: white;
+	border: none;
+	background: none;
+	padding: 2px;
+	text-decoration: none !important;
+}
+
+.nav-text a:hover {
 	color: orange;
-	text-decoration: none;
+	background: #303030;
 }
 
-a:hover {
-	text-decoration: underline;
+.site-nav img {
+	width: 30px;
+	position: fixed;
+	bottom: 40px;
+	padding: 0;
+}
+
+.site-nav:hover {
+	opacity: 1.0;
+}
+
+.arrows-left {
+	position: fixed;
+	right: 130px;
+	bottom: 40px;
+	width: 10px;
+	margin-right: 15px;
+	background: none !important;
+}
+
+.site-nav .top {
+	z-index: 3;
+}
+
+.arrows-right {
+	position: fixed;
+	bottom: 40px;
+	right: 70px;
+	width: 20px;
+	background: none !important;
+}
+
+.site-nav img.top:hover {
+  opacity:0;
+  background: none !important;
 }
