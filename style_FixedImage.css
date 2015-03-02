@@ -4,7 +4,7 @@ body {
 	color: white;
 }
 
-img {
+.large-container img {
 	position: fixed;
 	display: inline-block;
 	height: 100%;

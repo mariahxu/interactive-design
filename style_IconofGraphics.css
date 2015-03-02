@@ -52,12 +52,12 @@ body {
 	width: 150px;
 }
 
-a {
+.large-container a {
 	color: gray;
 	text-decoration: none;
 }
 
-a:hover {
+.large-container a:hover {
 	text-decoration: underline;
 }
 
@@ -83,7 +83,7 @@ a:hover {
 	padding-left: 30px;
 }
 
-img {
+.large-container img {
 	width: 420px;
 	display: block;
 	margin-top: 10px;

@@ -32,16 +32,16 @@ header {
 	display: inline-block;
 }
 
-a {
+.general a {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover {
+.general a:hover {
 	color: red;
 }
 
-img {
+.general img {
 	width: 100%;
 	max-width: 100%;
 	height: auto;

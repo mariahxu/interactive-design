@@ -22,12 +22,12 @@ body {
 	padding: 10px;
 }
 
-a {
+.nav a {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover {
+.nav a:hover {
 	text-transform: uppercase;
 }
 
@@ -48,7 +48,7 @@ h2 {
 	font-size: 14px;
 }
 
-img {
+.image img {
 	position: fixed;
 	right: 0px;
 	top: 0px;
