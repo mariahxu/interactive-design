@@ -53,7 +53,7 @@ header {
 	color: rgba(92, 213, 255, 0.9);
 }
 
-.general img {
+img {
 	width: 890px;
 	position: relative;
 	margin-left: 30px;
