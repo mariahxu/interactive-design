@@ -44,16 +44,16 @@ header {
 	text-transform: uppercase;
 }
 
-a {
+.general a {
 	color: black;
 	text-decoration: none;
 }
 
-a:hover {
+.general a:hover {
 	color: rgba(92, 213, 255, 0.9);
 }
 
-img {
+.general img {
 	width: 890px;
 	position: relative;
 	margin-left: 30px;
