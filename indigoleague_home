@@ -24,7 +24,7 @@
 	.nav a {
 		background: url('http://mariahxu.github.io/interactive-design/Lee/nobullet.png') no-repeat;
 		background-size: 6px 6px;
-		background-position: center 24%;
+		background-position: center 0%;
 		padding-top: 22px;
 		padding-bottom: 22px;
 		padding-left: 0;
@@ -35,9 +35,9 @@
 		-o-transition: .1s background ease-out;
 }	
 	.nav a:hover {
-	background: url('http://mariahxu.github.io/interactive-design/Lee/bullet.png') no-repeat;
-	background-size: 6px 6px;
-	background-position: center 24%;
+	background: url('http://mariahxu.github.io/interactive-design/indigoleague/pokeball.png') no-repeat;
+	background-size: 20px 20px;
+	background-position: center 0%;
 }
 
 	.year {
