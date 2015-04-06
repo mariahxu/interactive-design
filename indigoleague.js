@@ -6,8 +6,8 @@ function getRandomImage(imgAr1, imgAr2, path) {
     var num = Math.floor( Math.random() * imgAr1.length );
     var img = imgAr1[ num ];
     var img2 = imgAr2[ num ];
-    var imgStr = '<img src="' + path + img + '" alt = ""style="width:100%; position:fixed;">';
-    var imgStr2 = '<img src="' + path + img2 + '" alt= ""style="width: 100%; position: absolute; padding: 10px">';
+    var imgStr = '<img src="' + path + img + '" class="bigImage1">';
+    var imgStr2 = '<img src="' + path + img2 + '" class="bigImage2">';
     document.write(imgStr); 
     document.write(imgStr2); document.close();
 }
