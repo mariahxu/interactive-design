@@ -15,6 +15,38 @@
 			background-color: rgb(0,41,0);
 		}
 
+		.small {
+			display: none;
+		}
+
+		input {
+			padding: 5px;
+			color: #EE4423;
+			font-family: 'Inconsolata';
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+
+		button {
+			background-color: rgb(0,41,0);
+			color: white;
+			font-family: 'Inconsolata';
+			font-size: 18px;
+			text-transform: uppercase;
+			padding: 10px;
+		}
+
+		@media screen and (max-width: 1000px) {
+			.form {
+				display: none;
+			}
+
+			.small {
+				display: block;
+			}
+
+		}
+
     </style>
 </head>
 
@@ -46,6 +78,8 @@ FULL NAME <br>
  <input type="text">
  <br><br>
 </p>
+
+<div class="form">
 
 POKÉMON 1 <br>
 NAME <input type="text"> 
@@ -82,6 +116,48 @@ NAME <input type="text">
 SPECIES <input type="text">
 LEVEL <input type="text">
 <br><br>
+
+</div>
+
+<div class="small">
+
+POKÉMON 1 <br>
+NAME &nbsp;&nbsp;&nbsp;<input type="text"> <br>
+SPECIES <input type="text"><br>
+LEVEL &nbsp;&nbsp;<input type="text">
+<br><br>
+
+POKÉMON 2 <br>
+NAME &nbsp;&nbsp;&nbsp;<input type="text"> <br>
+SPECIES <input type="text"><br>
+LEVEL &nbsp;&nbsp;<input type="text">
+<br><br>
+
+POKÉMON 3 <br>
+NAME &nbsp;&nbsp;&nbsp;<input type="text"> <br>
+SPECIES <input type="text"><br>
+LEVEL &nbsp;&nbsp;<input type="text">
+<br><br>
+
+POKÉMON 4 <br>
+NAME &nbsp;&nbsp;&nbsp;<input type="text"> <br>
+SPECIES <input type="text"><br>
+LEVEL &nbsp;&nbsp;<input type="text">
+<br><br>
+
+POKÉMON 5 <br>
+NAME &nbsp;&nbsp;&nbsp;<input type="text"> <br>
+SPECIES <input type="text"><br>
+LEVEL &nbsp;&nbsp;<input type="text">
+<br><br>
+
+POKÉMON 6 <br>
+NAME &nbsp;&nbsp;&nbsp;<input type="text"> <br>
+SPECIES <input type="text"><br>
+LEVEL &nbsp;&nbsp;<input type="text">
+<br><br>
+
+</div>
 
 <button>Submit</button>
 
