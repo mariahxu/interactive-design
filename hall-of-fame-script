@@ -1,0 +1,11 @@
+$(document).ready(function(){
+
+	$("#sprites").hide();
+	
+	
+	$("#charizard").mouseover(function() {
+		$("#charizardsprite").show();
+
+	}
+
+});
