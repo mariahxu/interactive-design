@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Space</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+			background: black;
+			padding: 0;
+			/*margin: -100px;*/
+			color: white;
+
+		}
+
+		.text {
+			border: solid red 1px;
+			width: 100px;
+			position: absolute;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+<div class="text">
+	<p>hi</p>
+</div>
+
+
+<script>
+function AnimateIt() {
+    var theDiv = $(".text"),
+        theContainer = $("body"),
+        maxLeft = theContainer.width() - theDiv.width(),
+        maxTop = theContainer.height() - theDiv.height(),
+        leftPos = Math.floor(Math.random() * maxLeft),
+        topPos = Math.floor(Math.random() * maxTop);
+    
+    if (theDiv.position().left < leftPos) {
+        theDiv.removeClass("left").addClass("right");
+    } else {
+        theDiv.removeClass("right").addClass("left");
+    }
+        
+    theDiv.animate({
+        "left": leftPos,
+        "top": topPos
+    }, 5000, AnimateIt);
+}
+AnimateIt();
+
+</script>
+
+</body>
