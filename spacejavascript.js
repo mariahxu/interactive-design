@@ -1,5 +1,36 @@
+$.ajax({
+  "url":"https://www.kimonolabs.com/api/5err2aim?apikey=A9Gep5I6DrElZ4g8Q931nbNpbfQXTVMn",
+  "crossDomain":true,
+  "dataType":"jsonp",
+  //Make a call to the Kimono API following the "url" 
+  
+  'success': function(response){ 
+  // If the call request was successful and the data was retrieved, this function will create a list displaying the data
+  
+
+  var collection = response.results.collection1;
+    for (var i = 0; i < 17; i++){   
+    // Traverses through every element in the entire collection 
+
+      var hashtag = collection[i].trendinghashtags.text;
+      // console.log(collection[i]);
+      console.log(hashtag);
+
+      var j = i+1;
+
+
+      $('.text' + j.toString()).append('<p>' + hashtag + '</p>');
+        
+        // $(".list-group").append('<li class="list-group-item">' + collection[i].property1.text + '</li>');
+        // // adds the text and the links from the first property into the list
+      }
+  
+  }
+
+});
+
 function AnimateIt() {
-    var theDiv = $(".text"),
+    var theDiv = $(".text1"),
         theContainer = $(".container"),
         maxLeft = theContainer.width() - theDiv.width(),
         maxTop = theContainer.height() - theDiv.height(),
