@@ -337,7 +337,7 @@ img {
 	width: 600px;
 	font-family: helvetica, sans-serif;
 	font-size: 40px;
-	left: 200px;
+	left: 100px;
  	-webkit-animation: rotatingb 80s linear infinite;
 	-moz-animation: rotatingb 80s linear infinite;
 	-ms-animation: rotatingb 80s linear infinite;
@@ -363,7 +363,7 @@ img {
 	width: 600px;
 	font-family: helvetica, sans-serif;
 	font-size: 50px;
-	left: 800px;
+	left: 200px;
 	top: -150px;
  	-webkit-animation: rotatingd 90s linear infinite;
 	-moz-animation: rotatingd 90s linear infinite;
@@ -404,7 +404,7 @@ img {
 	position: relative;
 	font-family: helvetica, sans-serif;
 	font-size: 10px;
-	left: 1000px;
+	left: 700px;
  	-webkit-animation: rotatingg 120s linear infinite;
 	-moz-animation: rotatingg 120s linear infinite;
 	-ms-animation: rotatingg 120s linear infinite;
@@ -498,18 +498,18 @@ img {
 }
 
 .text13 {
-	width: 600px;
+	width: 300px;
 	position: relative;
-	left: 2000;
+	left: 15;
 	font-family: helvetica, sans-serif;
-	font-size: 10px;
-	left: 600px;
-	top: -1500px;
- 	-webkit-animation: rotatingb 110s linear infinite;
-	-moz-animation: rotatinb 110s linear infinite;
-	-ms-animation: rotatingb 110s linear infinite;
-	-o-animation: rotatingb 110s linear infinite;
-	animation: rotatingb 110s linear infinite;
+	font-size: 35px;
+	left: 20px;
+	top: -1190px;
+ 	-webkit-animation: rotatingd 110s linear infinite;
+	-moz-animation: rotatind 110s linear infinite;
+	-ms-animation: rotatingd 110s linear infinite;
+	-o-animation: rotatingd 110s linear infinite;
+	animation: rotatingd 110s linear infinite;
 }
 
 .text14 {
@@ -545,7 +545,7 @@ img {
 	width: 600px;
 	font-family: helvetica, sans-serif;
 	font-size: 60px;
-	left: 40px;
+	left: 5px;
 	top: -8000px;
  	-webkit-animation: rotating 60s linear infinite;
 	-moz-animation: rotating 60s linear infinite;
